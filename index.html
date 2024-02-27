@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+
+    <!-- ____________________________________Importing style.css______________________________________ -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ____________________________________Google font API's______________________________________ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- ____________________________________Main Body______________________________________ -->
+    <main>
+
+        <!-- ____________________________________Main Container______________________________________ -->
+        <div class="container">
+
+            <!-- ____________________________________Heading______________________________________ -->
+            <div class="heading">
+                <div class="line"></div>
+                <h1>YAY! It&#39s BOGO</h1>
+                <div class="line"></div>
+            </div>
+
+            <!-- ____________________________________First Dynamic Box______________________________________ -->
+            <div class="accordion">
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-item-header">
+                        <div class="accordion-item-name">
+                            <input type="radio" name="card" class="radion-button" id="#" />
+                            <div>
+                                <div class="accordion-item-unit">
+                                    <h2 class="fw-600">1 Unit</h2>
+                                    <div class="discount-detail">
+                                        <h3>10% Off</h3>
+                                    </div>
+                                </div>
+                                <h3 class="fw-400">Standard Price</h3>
+                            </div>
+                        </div>
+                        <div class="accordion-item-price">
+                            <h2 class="fw-500">$10.00 USD</h2>
+                            <small class="low-opacity"><del>$24.00 USD</del></small>
+                        </div>
+                    </div>
+                    <div class="accordion-item-content">
+                        <div class="accordion-item-content-name">
+                            <small class="size">Size</small>
+                            <small class="colour">Colour</small>
+                        </div>
+                        <div class="accordion-content-list">
+                            <small>#1</small>
+
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">S</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">S</li>
+                                    <li>ML</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Black</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Black</li>
+                                    <li>Green</li>
+                                    <li>Red</li>
+                                    <li>Yellow</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-content-list">
+                            <small>#2</small>
+                        
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">S</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">S</li>
+                                    <li>ML</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Colour</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Colour</li>
+                                    <li>Green</li>
+                                    <li>Red</li>
+                                    <li>Yellow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ____________________________________Second Dynamic Box______________________________________ -->
+            <div class="accordion">
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-item-header">
+                        <div class="accordion-item-name">
+                            <input type="radio" name="card" class="radion-button" id="#" />
+                            <div>
+                                <div class="accordion-item-unit">
+                                    <h2 class="fw-600">2 Unit</h2>
+                                    <div class="discount-detail">
+                                        <h3>20% Off</h3>
+                                    </div>
+                                </div>
+                                <h3 class="fw-400">Standard Price</h3>
+                            </div>
+                        </div>
+                        <div class="accordion-item-price">
+                            <h2 class="fw-500">$18.00 USD</h2>
+                            <small class="low-opacity"><del>$24.00 USD</del></small>
+                        </div>
+                    </div>
+                    <div class="accordion-item-content">
+                        <div class="accordion-item-content-name">
+                            <small class="size">Size</small>
+                            <small class="colour">Colour</small>
+                        </div>
+                        <div class="accordion-content-list">
+                            <small>#1</small>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">S</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">S</li>
+                                    <li>ML</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Black</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Black</li>
+                                    <li>Green</li>
+                                    <li>Red</li>
+                                    <li>Yellow</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-content-list">
+                            <small>#2</small>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">S</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">S</li>
+                                    <li>ML</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Colour</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Colour</li>
+                                    <li>Green</li>
+                                    <li>Red</li>
+                                    <li>Yellow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ____________________________________Third Dynamic Box______________________________________ -->
+            <div class="accordion">
+                <div class="accordion-item" onclick="toggleAccordion(this)">
+                    <div class="accordion-item-header">
+                        <div class="accordion-item-name">
+                            <input type="radio" name="card" class="radion-button" id="#" />
+                            <div>
+                                <div class="accordion-item-unit">
+                                    <h2 class="fw-600">3 Unit</h2>
+                                    <div class="discount-detail">
+                                        <h3>30% Off</h3>
+                                    </div>
+                                </div>
+                                <h3 class="fw-400">Standard Price</h3>
+                            </div>
+                        </div>
+                        <div class="accordion-item-price">
+                            <h2 class="fw-500">$24.00 USD</h2>
+                            <small class="low-opacity"><del>$24.00 USD</del></small>
+                        </div>
+                    </div>
+                    <div class="accordion-item-content">
+                        <div class="accordion-item-content-name">
+                            <small class="size">Size</small>
+                            <small class="colour">Colour</small>
+                        </div>
+                        <div class="accordion-content-list">
+                            <small>#1</small>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">S</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">S</li>
+                                    <li>ML</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Black</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Black</li>
+                                    <li>Green</li>
+                                    <li>Red</li>
+                                    <li>Yellow</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-content-list">
+                            <small>#2</small>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">S</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">S</li>
+                                    <li>ML</li>
+                                    <li>L</li>
+                                    <li>XL</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="dropdown">
+                                <div class="select">
+                                    <span class="selected">Colour</span>
+                                    <div class="caret"></div>
+                                </div>
+                                <ul class="menu">
+                                    <li class="active">Colour</li>
+                                    <li>Green</li>
+                                    <li>Red</li>
+                                    <li>Yellow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ____________________________________Delivery Box______________________________________ -->
+            <div class="card-total">
+                <h2 class="red-color">Free Delivery</h2>
+                <h2>Total : $18.00 USD</h2>
+            </div>
+
+            <!-- ____________________________________Adding to Cart______________________________________ -->
+            <div class="button-container">
+                <button class="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="plus-sign">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                    <h3>Add to Cart</h3>
+                </button>
+                <small class="powered-by-text">@Powered by Pumper</small>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ____________________________________Importing script.css______________________________________ -->
+    <script src="script.js"></script>
+</body>
+
+</html>
